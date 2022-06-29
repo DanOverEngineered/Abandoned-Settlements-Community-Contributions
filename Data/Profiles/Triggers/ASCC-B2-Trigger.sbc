@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Trigger-Mounf-Medical</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:ASCC-B2-Action-Mounf-Medical]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Trigger-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Conditions:ASCC-Condition-DNSK]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:ASCC-B2-Action-DNSK]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Trigger-AIEnabled</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Conditions:ASCC-Condition-AIEnabled]
+                [Type:PlayerNear]
+                [TargetDistance:1000]
+                [MinCooldownMs:1000]
+                [MaxCooldownMs:2000]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:ASCC-B2-Action-AIEnabled]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>	

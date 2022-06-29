@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/601/XMLSchema-instance" xmlns:xsd="http://www.w3.org/601/XMLSchema">
+	<ContainerTypes>
+	
+		<ContainerType CountMin="2" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>ASCC-B2-ContainerTypes-PistolWeapons-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>SemiAutoPistolItem</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="6">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>SemiAutoPistolMagazine</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>ASCC-B2-ContainerTypes-PistolWeapons-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>FullAutoPistolItem</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="6">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>FullAutoPistolMagazine</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>ASCC-B2-ContainerTypes-RifleWeapons-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>PreciseAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="6">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>PreciseAutomaticRifleGun_Mag_5rd</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>ASCC-B2-ContainerTypes-RifleWeapons-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="6">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>RapidFireAutomaticRifleGun_Mag_50rd</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>ASCC-B2-ContainerTypes-Gatling</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="4" AmountMax="6">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>NATO_25x184mm</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>	
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>ASCC-B2-ContainerTypes-AutoCannon</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="4" AmountMax="6">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>AutocannonClip</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+	</ContainerTypes>																									
+</Definitions>																										

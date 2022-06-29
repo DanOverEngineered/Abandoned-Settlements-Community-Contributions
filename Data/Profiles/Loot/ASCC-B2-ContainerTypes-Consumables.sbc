@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+		<ContainerType CountMin="3" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>ASCC-B2-ContainerTypes-Consumables-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>ClangCola</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>CosmicCoffee</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.125</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>Medkit</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.125</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>Powerkit</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="600" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Ice</SubtypeId>
+					</Id>
+				</Item>	
+			</Items>
+		</ContainerType>
+	</ContainerTypes>																									
+</Definitions>																										

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ASCC-B2-Loot-Lockers</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockers]
+
+        [ContainerTypes:ASCC-B2-ContainerTypes-Components-Basic]
+        [ContainerTypes:ASCC-B2-ContainerTypes-Components-Advanced]
+        [ContainerTypes:ASCC-B2-ContainerTypes-Ingots-Basic]
+        [ContainerTypes:ASCC-B2-ContainerTypes-Ore-Basic]
+
+        [MinBlocks:3]
+        [MaxBlocks:3]
+
+      </Description>
+
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ASCC-B2-Loot-Armoury</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner]
+
+        [ContainerTypes:ASCC-B2-ContainerTypes-Consumables-1]
+        [ContainerTypes:ASCC-B2-ContainerTypes-Tools-1
+        [ContainerTypes:ASCC-B2-ContainerTypes-RifleWeapons-1]
+        [ContainerTypes:ASCC-B2-ContainerTypes-RifleWeapons-2]
+
+        [MinBlocks:3]
+        [MaxBlocks:3]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

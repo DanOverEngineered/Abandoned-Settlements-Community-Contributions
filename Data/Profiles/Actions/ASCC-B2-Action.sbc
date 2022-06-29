@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Action-Mounf-Medical</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:ASCC-B2-Spawn-Dwelling-Mounf-Band1]
+                [Spawner:ASCC-B2-Spawn-Dwelling-Mounf-Band2]
+                [Spawner:ASCC-B2-Spawn-Dwelling-Mounf-Band3]
+                [Spawner:ASCC-B2-Spawn-Dwelling-Mounf-Band4]
+                [Spawner:ASCC-B2-Spawn-Infrastructure-Band5]
+                [Spawner:ASCC-B2-Spawn-Infrastructure-Band6]
+                                
+                [UseChatBroadcast:true]
+                [ChatData:ASCC-B2-Notify]
+                [ChatData:ASCC-B2-Chat]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Action-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:ASCC-B2-Spawn-Cargo-DNSK]
+                [Spawner:ASCC-B2-Spawn-Cargo-DNSK]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Action-AIEnabled</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:ASCC-B3-Spawn-Guard-Bot]
+                [Spawner:ASCC-B3-Spawn-Grinder-Bot]
+            </Description>
+        </EntityComponent>
+        
+    </EntityComponents>
+</Definitions>	        

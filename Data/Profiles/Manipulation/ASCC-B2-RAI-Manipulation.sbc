@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ASCC-B2-RAI-Manipulation</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [ClearAuthorship:true]
+        [ClearGridInventories:true]
+        
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:ASCC-B2-Loot-Freight]
+        [LootProfiles:ASCC-B2-Loot-Lockers]
+        [LootProfiles:ASCC-B2-Loot-Armoury]
+        [LootProfiles:ASCC-B2-Loot-Cargo-Small]
+        [LootProfiles:ASCC-B2-Loot-Cargo-Medium]
+        [LootProfiles:ASCC-B2-Loot-Cockpit]
+        [LootProfiles:ASCC-B0-Loot-H2Generator]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ASCC-B2-RAI-Manipulation-DNSK</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:ASCC-B2-Loot-DNSK]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

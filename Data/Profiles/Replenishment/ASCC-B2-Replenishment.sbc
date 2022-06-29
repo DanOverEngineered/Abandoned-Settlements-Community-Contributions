@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>ASCC-B2-Replenishment-Interior</SubtypeId>
+        </Id>
+        <Description>
+            [MES Replenishment]
+            [RestrictedItems:MyObjectBuilder_AmmoMagazine/NATO_5p56x45mm]
+
+            [MaxItemId:MyObjectBuilder_AmmoMagazine/RapidFireAutomaticRifleGun_Mag_50rd]
+            [MaxItemAmount:10]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>ASCC-B2-Replenishment-Gatling</SubtypeId>
+        </Id>
+        <Description>
+            [MES Replenishment]
+            [MaxItemId:MyObjectBuilder_AmmoMagazine/NATO_25x184mm]
+            [MaxItemAmount:10]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>ASCC-B2-Replenishment-AutoCannon</SubtypeId>
+        </Id>
+        <Description>
+            [MES Replenishment]
+            [MaxItemId:MyObjectBuilder_AmmoMagazine/AutocannonClip]
+            [MaxItemAmount:10]
+        </Description>
+    </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

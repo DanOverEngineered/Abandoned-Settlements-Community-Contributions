@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>ASCC-B2-Mounf-Medical</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:ASCC-B2-SpawnCondition]
+                [ManipulationProfiles:ASCC-B2-MES-Manipulation]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [IgnoreCleanupRules:true]
+
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Medical]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+				[EnableBlocksWithName:Timer]
+				[AllowPartialNames:true]
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ASCC)Mounf-Clinic">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>ASCC-B2-Behaviour-Mounf-Medical</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

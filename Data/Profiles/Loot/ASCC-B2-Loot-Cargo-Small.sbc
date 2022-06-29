@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>ASCC-B2-Loot-Cargo-Small</SubtypeId>
+        </Id>
+        <Description>
+            [MES Loot]
+            [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockSmallContainer]
+            [ContainerTypes:ASCC-B2-ContainerTypes-Components-Basic]
+            [ContainerTypes:ASCC-B2-ContainerTypes-Components-Advanced]
+            [ContainerTypes:ASCC-B2-ContainerTypes-Ingot-Basic]
+            [ContainerTypes:ASCC-B2-ContainerTypes-Ore-Basic]
+            [MinBlocks:3]
+            [MaxBlocks:3]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>ASCC-B2-Loot-Gatling</SubtypeId>
+        </Id>
+            <Description>
+                [MES Loot]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockSmallContainer]
+                [ContainerTypes:ASCC-B2-ContainerTypes-Gatling]
+                [MinBlocks:3]
+                [MaxBlocks:3]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>ASCC-B2-Loot-AutoCannon</SubtypeId>
+        </Id>
+            <Description>
+                [MES Loot]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockSmallContainer]
+                [ContainerTypes:ASCC-B2-ContainerTypes-AutoCannon]
+                [MinBlocks:3]
+                [MaxBlocks:3]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

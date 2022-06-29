@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>ASCC-B3-Guard-Bot</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                        
+                [CreatureSpawn:true]
+                [CreatureIds:Police_Bot]
+                [AiEnabledModBots:true]
+                [AiEnabledRole:SOLDIER]
+                [FactionOwner:QARC]
+                [MinCreatureCount:2]
+                [MaxCreatureCount:4]
+                [MinCreatureDistance:50]
+                [MaxCreatureDistance:100]
+
+				[ThreatScoreMinimum:40]
+
+				[FalseSandboxVariables:ASCC-No-Bots]	
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="MES-CreaturePrefabDummy">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>ASCC-B3-Grinder-Bot</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                        
+                [CreatureSpawn:true]
+                [CreatureIds:Space_Skeleton]
+                [AiEnabledModBots:true]
+                [AiEnabledRole:GRINDER]
+                [FactionOwner:QARC]
+                [MinCreatureCount:1]
+                [MaxCreatureCount:1]
+                [MinCreatureDistance:50]
+                [MaxCreatureDistance:100]
+				[FalseSandboxVariables:ASCC-No-Bots]	
+
+				
+				[ThreatScoreMinimum:40]
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="MES-CreaturePrefabDummy">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>ASCC-B3-Boss-Bot</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                        
+                [CreatureSpawn:true]
+                [CreatureIds:Boss_Bot]
+                [AiEnabledModBots:true]
+                [AiEnabledRole:BRUISER]
+                [FactionOwner:QARC]
+                [MinCreatureCount:1]
+                [MaxCreatureCount:1]
+                [MinCreatureDistance:100]
+                [MaxCreatureDistance:150]
+				[FalseSandboxVariables:ASCC-No-Bots]	
+
+
+				[ThreatScoreMinimum:40]
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>0.1</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="MES-CreaturePrefabDummy">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>
