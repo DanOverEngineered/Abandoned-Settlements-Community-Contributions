@@ -16,6 +16,6 @@ The right to publish modified or unmodified copies of the software is reserved.
 
 Copyright of contributing authors is reserved by them, their works are used here with permission.
 
-Legitmate publications of the Software can be found at [TBC]
+Legitmate publications of the Software can be found under [Steam Workshop ID: 2828031757](https://steamcommunity.com/sharedfiles/filedetails/?id=2828031757)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

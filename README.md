@@ -7,5 +7,5 @@ Prefabs for this mod have kindly been donated by the following people:
 
 All copyright is reserved by their respective owners and used with permission for this mod only.
 
-Source code is presented here to facilitate code contributions and for educational purposes.  You are welcome to study the code and borrow techniques for your own mods but we reserve the right to publish the contents of this repository.  The only legitimate published copy can be found under Steam Workshop ID: [TBC]
+Source code is presented here to facilitate code contributions and for educational purposes.  You are welcome to study the code and borrow techniques for your own mods but we reserve the right to publish the contents of this repository.  The only legitimate published copy can be found under Steam Workshop ID: [2828031757](https://steamcommunity.com/sharedfiles/filedetails/?id=2828031757)
 
