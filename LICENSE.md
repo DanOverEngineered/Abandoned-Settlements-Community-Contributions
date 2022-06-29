@@ -14,7 +14,7 @@ The right to commercial use is reserved.
 
 The right to publish modified or unmodified copies of the software is reserved.
 
-Copyright of contributing authors is reserved by them, are used here with permission.
+Copyright of contributing authors is reserved by them, their works are used here with permission.
 
 Legitmate publications of the Software can be found at [TBC]
 
