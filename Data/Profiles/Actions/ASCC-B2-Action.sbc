@@ -14,7 +14,11 @@
                 [Spawner:ASCC-B2-Spawn-Dwelling-Mounf-Band3]
                 [Spawner:ASCC-B2-Spawn-Dwelling-Mounf-Band4]
                 [Spawner:ASCC-B2-Spawn-Infrastructure-Band5]
+                [Spawner:ASCC-B2-Spawn-Infrastructure-Band5]
                 [Spawner:ASCC-B2-Spawn-Infrastructure-Band6]
+                [Spawner:ASCC-B2-Spawn-Infrastructure-Band6]
+                [Spawner:ASCC-B2-Spawn-Cargo-Loose]
+                [Spawner:ASCC-B2-Spawn-Cargo-Loose]
                                 
                 [UseChatBroadcast:true]
                 [ChatData:ASCC-B2-Notify]

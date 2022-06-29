@@ -4,7 +4,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>ASCC-LootCrate-Loose</SubtypeId>
+				<SubtypeId>ASCC-B2-LootCrate-Loose</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -30,7 +30,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>ASCC-B0-LootCrate-DNSK</SubtypeId>
+				<SubtypeId>ASCC-B2-LootCrate-DNSK</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -41,7 +41,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="ASCC-LootCrate-DNSK">
+				<Prefab SubtypeId="(NPC-ASCC)LootCrate-DNSK">
 					<Position>
 						<X>0.0</X>
 						<Y>-0.5</Y>

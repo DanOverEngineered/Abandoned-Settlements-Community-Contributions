@@ -30,7 +30,7 @@
 				<Prefab SubtypeId="(NPC-ASCC)Mounf-Clinic">
 					<Position>
 						<X>0.0</X>
-						<Y>0.0</Y>
+						<Y>6.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>

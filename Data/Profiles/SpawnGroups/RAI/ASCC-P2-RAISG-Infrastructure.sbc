@@ -19,7 +19,7 @@
 				<Prefab SubtypeId="(NPC-ASCC)Mounf-Charging-Station">
 					<Position>
 						<X>0.0</X>
-						<Y>0.0</Y>
+						<Y>8.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -35,8 +35,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [SpawnConditionsProfiles:ASCC-B1-RAI-SpawnCondition]
-				[ManipulationProfiles:ASCC-B1-RAI-Manipulation]
+                [SpawnConditionsProfiles:ASCC-B2-RAI-SpawnCondition]
+				[ManipulationProfiles:ASCC-B2-RAI-Manipulation]
 				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -46,7 +46,7 @@
 				<Prefab SubtypeId="(NPC-ASCC)Mounf-H2-Tanks">
 					<Position>
 						<X>0.0</X>
-						<Y>0.0</Y>
+						<Y>7.5</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -55,7 +55,6 @@
 			</Prefabs>
 		</SpawnGroup>
 
-        
         <SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
@@ -63,8 +62,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [SpawnConditionsProfiles:ASCC-B1-RAI-SpawnCondition]
-				[ManipulationProfiles:ASCC-B1-RAI-Manipulation]
+                [SpawnConditionsProfiles:ASCC-B2-RAI-SpawnCondition]
+				[ManipulationProfiles:ASCC-B2-RAI-Manipulation]
 				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>

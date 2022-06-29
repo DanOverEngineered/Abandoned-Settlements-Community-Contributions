@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Factions>
+		<Faction Tag="QARC" Founder="Qi Inc">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+				<SubtypeId>AS2-Faction-QARC</SubtypeId> 
+			</Id>
+			<DisplayName>Qi Asset Recovery Company</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon>
+		</Faction>
+	</Factions>
+</Definitions>

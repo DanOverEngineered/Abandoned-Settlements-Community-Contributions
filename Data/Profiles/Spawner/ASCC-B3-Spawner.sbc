@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B3-Spawn-Guard-Bot</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [SpawnMinCooldown:1]
+                [SpawnMaxCooldown:2]
+                [MaxSpawns:-1]
+                [SpawningType:Creature]
+                [SpawnGroups:ASCC-B3-Guard-Bot]
+                [SpawnGroups:ASCC-B3-Boss-Bot]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B3-Spawn-Grinder-Bot</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [SpawnMinCooldown:1]
+                [SpawnMaxCooldown:2]
+                [MaxSpawns:-1]
+                [SpawningType:Creature]
+                [SpawnGroups:ASCC-B3-Grinder-Bot]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>	
