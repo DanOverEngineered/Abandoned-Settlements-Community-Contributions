@@ -27,7 +27,7 @@
 			<IsPirate>true</IsPirate> 
 			<Frequency>50</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-Clinic">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-Clinic">
 					<Position>
 						<X>0.0</X>
 						<Y>6.0</Y>

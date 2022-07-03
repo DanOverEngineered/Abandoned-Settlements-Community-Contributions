@@ -16,7 +16,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-Charging-Station">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-Charging-Station">
 					<Position>
 						<X>0.0</X>
 						<Y>8.0</Y>
@@ -43,7 +43,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-H2-Tanks">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-H2-Tanks">
 					<Position>
 						<X>0.0</X>
 						<Y>7.5</Y>
@@ -70,7 +70,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-Landing-Pad">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-Landing-Pad">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>

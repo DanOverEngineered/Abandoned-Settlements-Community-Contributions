@@ -15,7 +15,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)LootCrate-Loose">
+				<Prefab SubtypeId="(NPC-ASCC) LootCrate-Loose">
 					<Position>
 						<X>0.0</X>
 						<Y>-0.5</Y>
@@ -41,7 +41,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)LootCrate-DNSK">
+				<Prefab SubtypeId="(NPC-ASCC) LootCrate-DNSK">
 					<Position>
 						<X>0.0</X>
 						<Y>-0.5</Y>

@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Prefabs>
     <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
-      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-ASCC)Mounf-Landing-Pad" />
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-ASCC) Mounf-Landing-Pad" />
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
@@ -1177,7 +1177,7 @@
               </Blocks>
             </MyObjectBuilder_BlockGroup>
           </BlockGroups>
-          <DisplayName>(NPC-ASCC)Mounf-Landing-Pad</DisplayName>
+          <DisplayName>(NPC-ASCC) Mounf-Landing-Pad</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
           <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>

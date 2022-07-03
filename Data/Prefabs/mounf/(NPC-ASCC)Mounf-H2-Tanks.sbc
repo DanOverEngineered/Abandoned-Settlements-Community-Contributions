@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Prefabs>
     <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
-      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-ASCC)Mounf-H2-Tanks" />
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-ASCC) Mounf-H2-Tanks" />
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
@@ -1498,7 +1498,7 @@
               <ConveyorLineType>LARGE_LINE</ConveyorLineType>
             </MyObjectBuilder_ConveyorLine>
           </ConveyorLines>
-          <DisplayName>(NPC-ASCC)Mounf-H2-Tanks</DisplayName>
+          <DisplayName>(NPC-ASCC) Mounf-H2-Tanks</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
           <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>

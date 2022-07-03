@@ -16,7 +16,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-Aptmt-2x2">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-Aptmt-2x2">
 					<Position>
 						<X>0.0</X>
 						<Y>8.0</Y>
@@ -43,7 +43,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-Aptmt-3x2">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-Aptmt-3x2">
 					<Position>
 						<X>0.0</X>
 						<Y>8.0</Y>
@@ -70,7 +70,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-House-1">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-House-1">
 					<Position>
 						<X>0.0</X>
 						<Y>6.0</Y>
@@ -97,7 +97,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-ASCC)Mounf-House-2">
+				<Prefab SubtypeId="(NPC-ASCC) Mounf-House-2">
 					<Position>
 						<X>0.0</X>
 						<Y>5.0</Y>

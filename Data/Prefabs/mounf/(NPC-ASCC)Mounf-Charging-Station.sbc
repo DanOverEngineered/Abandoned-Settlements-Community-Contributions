@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Prefabs>
     <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
-      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-ASCC)Mounf-Charging-Station" />
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-ASCC) Mounf-Charging-Station" />
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
@@ -601,7 +601,7 @@
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <IsStatic>true</IsStatic>
-          <DisplayName>(NPC-ASCC)Mounf-Charging-Station</DisplayName>
+          <DisplayName>(NPC-ASCC) Mounf-Charging-Station</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
           <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
