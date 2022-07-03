@@ -88,7 +88,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>ASCC-B2-Spawn-Infrastructure-Band5</SubtypeId>
+                <SubtypeId>ASCC-B2-Spawn-Infrastructure-Mounf-Band5</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Spawn]
@@ -108,7 +108,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>ASCC-B2-Spawn-Infrastructure-Band6</SubtypeId>
+                <SubtypeId>ASCC-B2-Spawn-Infrastructure-Mounf-Band6</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Spawn]
@@ -118,6 +118,144 @@
                 [SpawnGroups:ASCC-Mounf-Charging-Station]
                 [SpawnGroups:ASCC-Mounf-H2-Tanks]
                 [SpawnGroups:ASCC-Mounf-Landing-Pad]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:140]
+                [MaxDistance:140]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Spawn-Dwelling-Gogoms-Band1</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-2]
+                [SpawnGroups:ASCC-B2-Gogoms-Large-House]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:20]
+                [MaxDistance:20]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Spawn-Dwelling-Gogoms-Band2</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-2]
+                [SpawnGroups:ASCC-B2-Gogoms-Large-House]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:40]
+                [MaxDistance:40]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Spawn-Dwelling-Gogoms-Band3</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-2]
+                [SpawnGroups:ASCC-B2-Gogoms-Large-House]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:60]
+                [MaxDistance:60]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Spawn-Dwelling-Gogoms-Band4</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-1]
+                [SpawnGroups:ASCC-B2-Gogoms-House-2]
+                [SpawnGroups:ASCC-B2-Gogoms-Large-House-Ruin]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:80]
+                [MaxDistance:80]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Spawn-Defensive-Gogoms-Band5</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:ASCC-B2-Gogoms-Defensive]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:100]
+                [MaxDistance:100]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Spawn-Infrastructure-Gogoms-Band6</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:ASCC-Gogoms-Comms-Tower]
+                [SpawnGroups:ASCC-Gogoms-Mining-Platform]
+                [SpawnGroups:ASCC-Gogoms-Containers]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:120]
+                [MaxDistance:120]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-Spawn-Infrastructure-Gogoms-Band7</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:ASCC-Gogoms-Comms-Tower]
+                [SpawnGroups:ASCC-Gogoms-Mining-Platform]
+                [SpawnGroups:ASCC-Gogoms-Container]
                 [UseRelativeSpawnPosition:false]
                 [MinDistance:140]
                 [MaxDistance:140]

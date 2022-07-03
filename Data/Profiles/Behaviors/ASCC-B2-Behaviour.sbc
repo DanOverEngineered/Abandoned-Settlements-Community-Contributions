@@ -14,5 +14,19 @@
             [Triggers:ASCC-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>ASCC-B2-Behaviour-Gogoms-Outpost</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:ASCC-B2-Trigger-Gogoms-Outpost]
+            [Triggers:ASCC-B2-Trigger-DNSK]
+            [Triggers:ASCC-B2-Trigger-AIEnabled]
+        </Description>
+    </EntityComponent>
 </EntityComponents>
 </Definitions>

@@ -17,6 +17,21 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
+                <SubtypeId>ASCC-B2-RAI-SpawnCondition-Defensive</SubtypeId>
+            </Id>
+            <Description>
+                [MES Spawn Conditions]
+                [FactionOwner:QARC]
+                [RivalAiAtmosphericSpawn:true]
+                [ForceStaticGrid:true]	
+
+                [FalseSandboxVariables:ASCC-No-Turrets]	
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
                 <SubtypeId>ASCC-B2-RAI-SpawnCondition-Freight</SubtypeId>
             </Id>
             <Description>
